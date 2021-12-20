@@ -1,0 +1,55 @@
+1. True or false: Message Authentication Code (MAC) prevents an adversary from modifying or injecting
+messages between two parties with a symmetric secret key; thus, it makes replay attacks ineffective.
+(A) True, (B) False
+
+ message authentication code (MAC) is a short piece of information used to confirm that the message came from the stated sender (its authenticity) and has not been changed. 
+ However, to allow the receiver to be able to detect replay attacks, the message itself must contain data that assures that this same message can only be sent once
+
+answer: B
+
+
+2. True or false: In the Needham-Schroeder protocol, each participating party (e.g., A or B) becomes an
+encryption oracle to the other; i.e., provide a ciphertext for a plaintext chosen by another party.
+(A) True, (B) False
+
+answer: B
+
+
+
+
+3. True or false: All entity authentication protocols require on-line (i.e., always on, always accessible)
+trusted third parties.
+(A) True, (B) False
+
+answer: B
+
+
+
+
+4. True or false: The Diffie-Hellman key exchange protocol needs a trusted third party to determine the
+group parameters used for shared-secret generation.
+(A) True, (B) False
+
+answer: A
+
+
+
+
+5. True or false: Whenever n = p · q, where p and q are distinct primes, finding Euler’s totient function of
+n, denoted by φ(n), allows finding secret key d efficiently (i.e., in polynomial time in the length of n).
+(A) True, (B) False
+
+answer: A **
+
+
+
+
+6. True or false: A hash function that is second pre-image resistant is not necessarily pre-image resistant.
+(A) True, (B) False
+
+answer: B
+
+
+
+
+Submission. Write a text file p1 S #.txt, where # denotes your student id. In the text file, write your answer letters (i.e., A or B) for six questions and use newline to separate them.

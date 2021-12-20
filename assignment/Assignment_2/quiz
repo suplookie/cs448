@@ -1,0 +1,21 @@
+1. True or false: The KAIST IT Department may not notice when there exist a certificate for the KAIST web domain that is never issued by KAIST.
+True
+revocation is hard..
+
+2. True or false: The use of cipher suites in TLS that offer perfect forward secrecy guarantees the secrecy of session keys that will be generated in the future.
+False
+only for keys in the past
+
+3. True or false: DNS-over-HTTPS prevents DNS recursive resolvers from learning the queried domains but cannot handle DNS spoofing attacks.
+F
+can handle DNS spoofing
+
+4. True or false: Unlike Bitcoin’s proof-of-work that uses a single common puzzle for all, DDoS defense puzzles must be different for different clients.
+True
+
+5. True or false: We can fix the UDP servers, which are exploited for amplification DDoS attacks, by preventing them from returning more bits than they receive.
+True
+
+6. True or false: DDoS threats would disappear in a hypothetical world where a system admin can increase his server capacity indefinitely.
+False
+

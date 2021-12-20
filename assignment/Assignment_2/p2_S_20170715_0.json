@@ -1,0 +1,9 @@
+{
+	"proto" : "UDP", 
+	"port" : 53, 
+	"timestamp" : 
+	"1618372317764071350", 
+	"reqbytes" : 360, 
+	"resbytes" : 40730, 
+	"hmac" : "fbe579a51bfc90db439b1bf0a5453636228643fb7677e0dd35d0b72edcdf88d9"
+}
